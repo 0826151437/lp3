@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Đăng nhập</title>
+    <link rel="stylesheet" href="dangnhap.css">
+    <link rel="stylesheet" href="../Font/fontawesome/css/all.css">
+    <link rel="stylesheet" href="../Bootstrap/bootstrap-4.3.1-dist/css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="dangnhap-account">
+        <div class="container">
+            <div class="row mt-4">
+                <div class="form-1 pt-3">
+                    <div class="logo">
+                        <img class="mb-3" src="../HìnhẢnh/logo.svg" alt="Đây là hình ảnh">
+                    </div>
+                    <h3 class="text-center mb-3">ĐĂNG NHẬP</h3>
+                    <div class="text-1">
+                        <div class="form-group">
+                            <input class="input-1 form-control" type="email" placeholder="Email">
+                        </div>
+                        <div class="form-group">
+                            <input class="input-1 form-control" type="text" placeholder="Nhập mật khẩu">
+                        </div>
+                        <div class="form-group mb-2">
+                            <!-- Button trigger modal -->
+                            <button type="button" style="font-size: 20px" class="btn btn-primary" data-toggle="modal"
+                                data-target="#exampleModal">
+                                ĐĂNG NHẬP
+                            </button>
+
+                            <!-- Modal -->
+                            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
+                                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">ĐĂNG NHẬP THÀNH CÔNG</h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-dismiss="modal">Close</button>
+                                            <button type="submit" onclick="quayvetrangchu()"
+                                                class="btn btn-primary">Save changes</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="mb-2 text-center">Hoặc</p>
+                        <a href="#" style="font-size: 22px;" class=" btn btn-primary">
+                            <i class="fab fa-facebook-square"></i>
+                            Đăng nhập bằng Facebook</a>
+                        <p class="mt-4 text-center">Bạn chưa có tài khoản? <a href="dangky.html">Đăng ký mới</a></p>
+                        <div class="text-3 text-center">
+                            <a href="index.html">Trở về trang chủ</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+       function quayvetrangchu(){
+            location.assign("file:///D:/Hôm%20nay%20ông%20sơn%20vê%20lốc%20sẽ%20làm%201%20cái%20web%20siêu%20khổng%20lồ/Code%20HTML%20&%20CSS/index.html");
+        }
+    </script>
+    <script type="text/javascript" src="../Bootstrap/Boostrap/jquery-3.3.1.slim.min.js"></script>
+    <script type="text/javascript" src="../Bootstrap/Boostrap/popper.min.js"></script>
+    <script type="text/javascript" src="../Bootstrap/bootstrap-4.3.1-dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>

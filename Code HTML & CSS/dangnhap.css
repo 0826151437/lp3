@@ -1,0 +1,34 @@
+*{
+    box-sizing: border-box;
+}
+
+.dangnhap-account .container .row .form-1 {
+    width: 680px;
+    height: 500px;
+    background: white;
+    border-radius: 20px;
+    margin: auto;
+    padding-left: 110px;
+    padding-right: 110px;
+    
+}
+body {
+    background-image: url("../HìnhẢnh/dangky-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.dangnhap-account .container .row .logo img {
+    width: 154px;
+    height: 44px;
+}
+.dangnhap-account .container .row .logo{
+    text-align: center;
+}
+.dangnhap-account .container .row .input-2{
+    color: white;
+}
+.dangnhap-account .container .row .btn{
+    height: 60px;
+    width: 100%;
+    padding-top: 12px;
+}
